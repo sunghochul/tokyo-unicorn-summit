@@ -1,2 +1,3 @@
-# tokyo-unicorn-summit
-official website for Tokyo Unicorn Summit 2025
+# Tokyo Unicorn Summit
+
+Empty project ready to restart from scratch.
