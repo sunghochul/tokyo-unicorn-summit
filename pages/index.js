@@ -1,43 +1,47 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-900 p-6">
-      <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">Tokyo Unicorn Summit 2025</h1>
-        <p className="text-lg">Official Website of the Tokyo Unicorn Summit</p>
+    <main style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '720px', margin: '0 auto' }}>
+      <header style={{ marginBottom: '2rem', textAlign: 'center' }}>
+        <h1 style={{ fontSize: '2.5rem' }}>Tokyo Unicorn Summit 2025</h1>
+        <p style={{ fontSize: '1.25rem', color: '#555' }}>Official Website of the Tokyo Unicorn Summit</p>
       </header>
 
-      <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-4">About</h2>
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>About</h2>
         <p>
-          The Tokyo Unicorn Summit connects top-tier startups from Korea, Taiwan, and across Asia with Japanese enterprises, VCs, and government partners. Organized by the Tokyo Unicorn Summit Organization (一般社団法人 東京ユニコーンサミット運営機構), the summit facilitates business matching, PoC opportunities, and cross-border innovation.
+          The Tokyo Unicorn Summit connects top-tier startups from Korea, Taiwan, and across Asia with Japanese enterprises,
+          venture capital firms, and government stakeholders. Hosted by the Tokyo Unicorn Summit Organization
+          (一般社団法人 東京ユニコーンサミット運営機構), the summit fosters cross-border innovation through strategic business matching,
+          proof-of-concept (PoC) collaborations, and global exposure.
         </p>
       </section>
 
-      <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-4">Program</h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li>Keynotes by Unicorn CEOs and Investors</li>
-          <li>Startup × Corporate PoC Matching</li>
-          <li>VC Roundtable Sessions</li>
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>Program</h2>
+        <ul>
+          <li>Keynotes by Unicorn CEOs and Leading Investors</li>
+          <li>Startup × Corporate PoC Matching Sessions</li>
+          <li>VC Roundtable Dialogues</li>
           <li>Global Startup Showcases</li>
         </ul>
       </section>
 
-      <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-4">How to Join</h2>
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>How to Join</h2>
         <p>
-          Participation is by invitation only. If your startup or organization is interested in joining the summit, please contact us through the form below.
+          Participation is by invitation only. If your startup or organization is interested in attending the summit,
+          please reach out to us via the contact information below.
         </p>
       </section>
 
-      <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-        <p>Email: <a href="mailto:info@tokyounicornsummit.org" className="text-blue-600">info@tokyounicornsummit.org</a></p>
-        <p>Organizer: 一般社団法人 東京ユニコーンサミット運営機構</p>
+      <section style={{ marginBottom: '3rem' }}>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:info@tokyounicornsummit.org">info@tokyounicornsummit.org</a></p>
+        <p>Organizer: Tokyo Unicorn Summit Organization (一般社団法人 東京ユニコーンサミット運営機構)</p>
         <p>Location: Minato-ku, Tokyo (Virtual Office)</p>
       </section>
 
-      <footer className="text-center text-sm text-gray-500">
+      <footer style={{ fontSize: '0.9rem', color: '#888', textAlign: 'center' }}>
         &copy; 2025 Tokyo Unicorn Summit Organization. All rights reserved.
       </footer>
     </main>
